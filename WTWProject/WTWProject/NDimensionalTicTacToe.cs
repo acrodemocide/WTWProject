@@ -13,78 +13,52 @@
             _gameBoard = new int[_gameBoardSize, _gameBoardSize];
         }
 
-        private bool DoesPlayerHaveCompleteRow(int player)
+        private bool DidPlayerWin(int player)
         {
-            int piecesInARowCount = 0;
+            int rowCount = 0;
+            int colCount = 0;
+            int forwardDiagonalCount = 0;
+            int backwardDiagonalCount = 0;
+            bool didPlayerWin = false;
             for (int i = 0; i < _gameBoardSize; i++)
             {
                 for (int j = 0; j < _gameBoardSize; j++)
                 {
                     if (_gameBoard[i, j] == player)
                     {
-                        piecesInARowCount++;
+                        rowCount++;
                     }
-                    else
-                    {
-                        piecesInARowCount = 0;
-                        break;
-                    }
-                }
-                if (piecesInARowCount == _gameBoardSize)
-                    return true;
-            }
-            return false;
-        }
-
-        private bool DoesPlayerHaveCompleteCol(int player)
-        {
-            int piecesInAColCount = 0;
-            for (int i = 0; i < _gameBoardSize; i++)
-            {
-                for (int j = 0; j < _gameBoardSize; j++)
-                {
                     if (_gameBoard[j, i] == player)
                     {
-                        piecesInAColCount++;
+                        colCount++;
                     }
-                    else
+                    if (i == j && _gameBoard[i, j] == player)
                     {
-                        piecesInAColCount = 0;
-                        break;
+                        forwardDiagonalCount++;
+                    }
+                    if (i + j == _gameBoardSize - 1 && _gameBoard[i,j] == player)
+                    {
+                        backwardDiagonalCount++;
                     }
                 }
-                if (piecesInAColCount == _gameBoardSize)
-                    return true;
-            }
-            return false;
-        }
-
-        private bool DoesPlayerHaveCompleteDiagonal(int player)
-        {
-            int piecesInForwardDiagonalCount = 0;
-            for (int i = 0; i < _gameBoardSize; i++)
-            {
-                if (_gameBoard[i, i] == player)
+                if (rowCount == _gameBoardSize || colCount == _gameBoardSize)
                 {
-                    piecesInForwardDiagonalCount++;
+                    didPlayerWin = true;
+                    break;
                 }
-                if (piecesInForwardDiagonalCount == _gameBoardSize)
-                    return true;
-            }
-
-            int piecesInBackwardDiagonalCount = 0;
-            int colIndex = _gameBoardSize - 1;
-            for (int i = 0; i < _gameBoardSize; i++)
-            {
-                if (_gameBoard[i, colIndex - i] == player)
+                else
                 {
-                    piecesInBackwardDiagonalCount++;
+                    rowCount = 0;
+                    colCount = 0;
                 }
-                if (piecesInBackwardDiagonalCount == _gameBoardSize)
-                    return true;
             }
 
-            return false;
+            if (forwardDiagonalCount == _gameBoardSize || backwardDiagonalCount == _gameBoardSize)
+            {
+                didPlayerWin = true;
+            }
+
+            return didPlayerWin;
         }
 
 
@@ -97,16 +71,14 @@
         // To reset the game, another method will need to be created to restore the gameboard to a starting state.
         public int PlacePiece(int row, int col, int player)
         {
-            //bool didPlayerWin = DoesPlayerHaveCompleteRow(player) || DoesPlayerHaveCompleteCol(player) || DoesPlayerHaveCompleteDiagonal(player);
             if (_winner == 0)
             {
                 _gameBoard[row, col] = player;
             }
-            if (DoesPlayerHaveCompleteRow(player) || DoesPlayerHaveCompleteCol(player) || DoesPlayerHaveCompleteDiagonal(player))
+            if (DidPlayerWin(player))
             {
                 _winner = player;
             }
-            // return didPlayerWin ? player == 2 ? 2 : 1 : 0;
             return _winner;
         }
     }

@@ -11,3 +11,16 @@ C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWPro
 C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.dll
 C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.pdb
 C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.genruntimeconfig.cache
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.exe
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.deps.json
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.runtimeconfig.json
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.runtimeconfig.dev.json
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.dll
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.pdb
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.csprojAssemblyReference.cache
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.AssemblyInfoInputs.cache
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.AssemblyInfo.cs
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.csproj.CoreCompileInputs.cache
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.dll
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.pdb
+D:\MyFiles\git\WTWProject\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.genruntimeconfig.cache
