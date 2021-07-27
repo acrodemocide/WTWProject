@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTWProject", "WTWProject\WTWProject.csproj", "{8DC588CC-E7D6-4A19-8D5B-71826DC114F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueEmailAddressesUnitTests", "UniqueEmailAddressesUnitTests\UniqueEmailAddressesUnitTests.csproj", "{83E8D67E-0C87-454A-936D-777710B8A414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DC588CC-E7D6-4A19-8D5B-71826DC114F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC588CC-E7D6-4A19-8D5B-71826DC114F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC588CC-E7D6-4A19-8D5B-71826DC114F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC588CC-E7D6-4A19-8D5B-71826DC114F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E8D67E-0C87-454A-936D-777710B8A414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E8D67E-0C87-454A-936D-777710B8A414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E8D67E-0C87-454A-936D-777710B8A414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E8D67E-0C87-454A-936D-777710B8A414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B658571F-7EAF-4CB2-A660-3A86695AC274}
+	EndGlobalSection
+EndGlobal

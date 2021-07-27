@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyFiles\\git\\WTWProject\\WTWProject\\UniqueEmailAddressesUnitTests\\UniqueEmailAddressesUnitTests.csproj": {}
+  },
+  "projects": {
+    "D:\\MyFiles\\git\\WTWProject\\WTWProject\\UniqueEmailAddressesUnitTests\\UniqueEmailAddressesUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\UniqueEmailAddressesUnitTests\\UniqueEmailAddressesUnitTests.csproj",
+        "projectName": "UniqueEmailAddressesUnitTests",
+        "projectPath": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\UniqueEmailAddressesUnitTests\\UniqueEmailAddressesUnitTests.csproj",
+        "packagesPath": "C:\\Users\\Acrod\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\UniqueEmailAddressesUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Acrod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\MyFiles\\git\\WTWProject\\WTWProject\\WTWProject\\WTWProject.csproj": {
+                "projectPath": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\WTWProject\\WTWProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyFiles\\git\\WTWProject\\WTWProject\\WTWProject\\WTWProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\WTWProject\\WTWProject.csproj",
+        "projectName": "WTWProject",
+        "projectPath": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\WTWProject\\WTWProject.csproj",
+        "packagesPath": "C:\\Users\\Acrod\\.nuget\\packages\\",
+        "outputPath": "D:\\MyFiles\\git\\WTWProject\\WTWProject\\WTWProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Acrod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

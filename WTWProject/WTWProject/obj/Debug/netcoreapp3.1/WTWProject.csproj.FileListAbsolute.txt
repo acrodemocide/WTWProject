@@ -1,0 +1,13 @@
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.exe
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.deps.json
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.runtimeconfig.json
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.runtimeconfig.dev.json
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.dll
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\bin\Debug\netcoreapp3.1\WTWProject.pdb
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.csprojAssemblyReference.cache
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.AssemblyInfoInputs.cache
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.AssemblyInfo.cs
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.csproj.CoreCompileInputs.cache
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.dll
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.pdb
+C:\Users\Acrod\source\repos\WTWProject\WTWProject\obj\Debug\netcoreapp3.1\WTWProject.genruntimeconfig.cache
